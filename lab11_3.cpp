@@ -27,4 +27,7 @@ int main(){
 	std=(x/count)-pow(mean,2);
 	std=sqrt(std);
     cout << "Standard deviation = "<<std;
+    source.close();
+    
+    return 0;
 }
